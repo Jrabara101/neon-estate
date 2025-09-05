@@ -1,0 +1,13 @@
+export const AGENTS = [
+  { id:'a1', name:'Alex Tan', title:'Senior Broker', phone:'+63 917 555 1234', email:'alex.tan@estate.co', rating:4.9, photo:'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop' },
+  { id:'a2', name:'Bianca Cruz', title:'Leasing Specialist', phone:'+63 917 555 4567', email:'bianca.cruz@estate.co', rating:4.8, photo:'https://iv1.lisimg.com/image/14222171/500full-bianca-cruz.jpg' },
+  { id:'a3', name:'Kenji Ramos', title:'Property Consultant', phone:'+63 917 555 9876', email:'kenji.ramos@estate.co', rating:4.7, photo:'https://media.philstar.com/photos/2022/03/27/5_2022-03-27_17-09-57.jpg' }
+]
+
+export const LISTINGS = [
+  { id:'p1', title:'Skyline View 2BR Condo in BGC', price:14800000, beds:2, baths:2, area:78, type:'Condo', location:'BGC', coords:{lat:14.5491,lng:121.0463}, amenities:['Pool','Gym','24/7 Security','Parking'], images:['https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1600&auto=format&fit=crop','https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1600&auto=format&fit=crop'], agentId:'a1', createdAt: Date.now()-1000*60*60*24*2 },
+  { id:'p2', title:'Modern House & Lot in Quezon City', price:22500000, beds:4, baths:3, area:240, type:'House & Lot', location:'Quezon City', coords:{lat:14.6760,lng:121.0437}, amenities:['Garden','Maid\'s Room','2-Car Garage'], images:['https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1600&auto=format&fit=crop','https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1600&auto=format&fit=crop'], agentId:'a2', createdAt: Date.now()-1000*60*60*12 },
+  { id:'p3', title:'Cozy Studio in Makati CBD', price:5200000, beds:1, baths:1, area:28, type:'Condo', location:'Makati', coords:{lat:14.5547,lng:121.0244}, amenities:['Pool','High-speed Elevator'], images:['https://cf.bstatic.com/xdata/images/hotel/max1024x768/615111853.jpg?k=471e5f8fcfff12a49762d18f207ffe2051a97b36fc590594a3f0321b69402b2e&o='], agentId:'a1', createdAt: Date.now()-1000*60*60*48 },
+  { id:'p4', title:'Baguio Mountainside Townhouse', price:9800000, beds:3, baths:2, area:120, type:'Townhouse', location:'Baguio', coords:{lat:16.4023,lng:120.5960}, amenities:['Fireplace','Balcony','Parking'], images:['https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1600&auto=format&fit=crop'], agentId:'a3', createdAt: Date.now()-1000*60*60*3 },
+  { id:'p5', title:'Tagaytay Ridge Lot Only (Corner)', price:6500000, beds:0, baths:0, area:300, type:'Lot Only', location:'Tagaytay', coords:{lat:14.1151,lng:120.9626}, amenities:['Gated Subdivision'], images:['https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?q=80&w=1600&auto=format&fit=crop'], agentId:'a2', createdAt: Date.now()-1000*60*60*24*5 }
+]
