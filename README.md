@@ -68,3 +68,13 @@ neon-estate/
 
 📸 Screenshots
 
+public/screenshots/Screenshot 2025-09-05 223540.png
+public/screenshots/Screenshot 2025-09-05 223540.png
+public/screenshots/Screenshot 2025-09-05 223601.png
+
+📦 Deployment
+
+This project can be deployed on Vercel, Netlify, or any static hosting provider.
+Default build command:
+
+npm run build
