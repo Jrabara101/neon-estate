@@ -1,0 +1,27 @@
+# Ensure consistent line endings
+* text=auto
+
+# Force LF endings for JS/TS files
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.cjs text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+
+# Config and lock files should also use LF
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+package-lock.json text eol=lf
+
+# Keep images and binaries untouched
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.mp4 binary
+*.mp3 binary
