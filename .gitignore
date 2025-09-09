@@ -1,0 +1,15 @@
+# IDE / Editor settings
+.vscode/
+*.swp
+
+# Build outputs
+/dist
+/build
+*.class
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
+.DS_Store
